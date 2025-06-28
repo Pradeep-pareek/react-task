@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Step from "./components/step";
+import Step from "./components/Step";
 import Table from "./components/Table";
 import Footer from "./components/Footer";
 
