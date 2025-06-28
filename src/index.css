@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+}
+.step-after::after{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 80%;
+    background-color: #30AD43;
+    left: -10px;
+    top: 6px;
+}
+.dashboard-profile h2,
+.dashboard-profile p {
+  line-height: normal !important;
+}
+.input-icon{
+    position: absolute;
+    top: 32%;
+    left: 10px;
+}
+#superDeveloper111{
+    display: none !important;
+}
+
