@@ -49,7 +49,7 @@ export default function Table() {
                         <tbody className="bg-[#fff] px-4">
                             {testSubjects.map(subject => (
                                 <tr key={subject.id}>
-                                    <td className="flex justify-center py-3 items-center text-[#464F60] text-base font-normal">
+                                    <td className="flex justify-center py-5 items-center text-[#464F60] text-base font-normal">
                                         <label className="relative w-[16px] h-[16px] cursor-pointer block">
                                             <input
                                                 type="checkbox"
@@ -64,7 +64,6 @@ export default function Table() {
                                             </div>
                                         </label>
                                     </td>
-
                                     <td className="p-2 text-[#464F60] text-base font-normal whitespace-nowrap">{subject.id}</td>
                                     <td className="p-2 text-[#464F60] text-base font-normal whitespace-nowrap">{subject.firstName}</td>
                                     <td className="p-2 text-[#464F60] text-base font-normal whitespace-nowrap">{subject.lastName}</td>
